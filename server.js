@@ -4,7 +4,7 @@ import cors from "cors";
 import dotenv from 'dotenv';
 
 
-import seedRouter from "./Routes/SeedRoutes.js"
+
 import productRouter from './Routes/ProductRoutes.js'
 
 
@@ -50,7 +50,7 @@ app.use(express.urlencoded({extended: true}));
 
 //API Endpoints
 
-app.use('/api/seed', seedRouter);
+
 
 app.use('/api/product', productRouter);
 
